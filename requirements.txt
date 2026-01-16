@@ -1,0 +1,33 @@
+# Core Dependencies
+audioop-lts; python_version >= '3.13'
+google-genai>=0.3.0
+google-generativeai>=0.8.0
+pydantic>=2.0
+pydantic-settings>=2.0
+sqlalchemy>=2.0
+aiosqlite>=0.19.0
+asyncpg>=0.29.0
+python-dotenv>=1.0.0
+colorama>=0.4.6
+
+# Web Framework & WebSocket
+fastapi>=0.109.0
+python-multipart>=0.0.7
+uvicorn[standard]>=0.27.0
+websockets>=12.0
+
+# Twilio Integration
+twilio>=9.0.0
+
+# HTTP Client
+httpx>=0.26.0
+
+# Structured Logging
+structlog>=24.1.0
+
+# Development Dependencies
+pytest>=8.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.1.0
+mypy>=1.8.0
+ruff>=0.1.14

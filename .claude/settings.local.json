@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(git init:*)",
+      "Bash(cat:*)",
+      "Bash(git add:*)",
+      "Bash(python -m src.main:*)",
+      "WebSearch",
+      "Bash(taskkill //F //PID 37524)",
+      "Bash(taskkill:*)"
+    ]
+  }
+}
